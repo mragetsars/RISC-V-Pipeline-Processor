@@ -1,0 +1,198 @@
+# Reading pref.tcl
+# Loading project CA_CA4
+# reading C:/Users/mrage/Programs/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project CA_CA1
+# Compile of ALU.v was successful.
+# Compile of Controller.v was successful.
+# Compile of Counter.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of LUT.v was successful.
+# Compile of MUX_2.v was successful.
+# Compile of MUX_3.v was successful.
+# Compile of Register.v was successful.
+# Compile of Shift_Register.v was successful.
+# Compile of tb_Top_Module.v was successful.
+# Compile of Top_Module.v was successful.
+# 11 compiles, 0 failed with no errors.
+vsim -gui work.tb_Top_Module
+# vsim -gui work.tb_Top_Module 
+# Start time: 00:35:04 on Jan 03,2026
+# Loading work.tb_Top_Module
+# Loading work.Top_Module
+# Loading work.Controller
+# Loading work.Datapath
+# Loading work.Register
+# Loading work.Shift_Register
+# Loading work.MUX_2
+# Loading work.MUX_3
+# Loading work.Counter
+# Loading work.LUT
+# Loading work.ALU
+add wave -position insertpoint  \
+sim:/tb_Top_Module/V_WIDTH \
+sim:/tb_Top_Module/S_WIDTH \
+sim:/tb_Top_Module/COUNTER_WIDTH \
+sim:/tb_Top_Module/LUT_ADDR_WIDTH \
+sim:/tb_Top_Module/LUT_DATA_WIDTH \
+sim:/tb_Top_Module/LUT_MEM_PATH \
+sim:/tb_Top_Module/clk \
+sim:/tb_Top_Module/rst \
+sim:/tb_Top_Module/start \
+sim:/tb_Top_Module/input_spikes \
+sim:/tb_Top_Module/v_rest_load \
+sim:/tb_Top_Module/v_th_load \
+sim:/tb_Top_Module/Vth \
+sim:/tb_Top_Module/Vrest \
+sim:/tb_Top_Module/spike_out \
+sim:/tb_Top_Module/valid
+run -all
+# ** Note: $stop    : C:/Users/mrage/Programs/Codes/Verilog/CA_CA1/Source/tb_Top_Module.v(92)
+#    Time: 4470 ns  Iteration: 0  Instance: /tb_Top_Module
+# Break in Module tb_Top_Module at C:/Users/mrage/Programs/Codes/Verilog/CA_CA1/Source/tb_Top_Module.v line 92
+quit -sim
+# End time: 00:36:27 on Jan 03,2026, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 5
+# reading C:/Users/mrage/Programs/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project CA_CA4
+# reading C:/Users/mrage/Programs/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project CA_CA4
+# Compile of ControlUnit.v was successful.
+# Compile of Datapath.v was successful.
+# Compile of HazardUnit.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Moduls.v was successful.
+# Compile of RISCV_Top.v was successful.
+# Compile of Testbench.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.tb_riscv
+# vsim -gui work.tb_riscv 
+# Start time: 02:23:59 on Jan 03,2026
+# Loading work.tb_riscv
+# Loading work.RISCV_Top
+# Loading work.ControlUnit
+# Loading work.Datapath
+# Loading work.Mux2
+# Loading work.FlopRC
+# Loading work.Adder
+# Loading work.RegFile
+# Loading work.Extend
+# Loading work.FlopC
+# Loading work.Mux3
+# Loading work.ALU
+# Loading work.HazardUnit
+# Loading work.InstMemory
+# Loading work.DataMemory
+run -all
+# ,----------------------------------------------------------------,
+# | Simulation Started. Waiting for processor to find Min value... |
+# '----------------------------------------------------------------'
+# Time: 25 | PC_F: 00000000 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 35 | PC_F: 00000004 | Instr_D: 00000513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 45 | PC_F: 00000008 | Instr_D: 00052603 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 55 | PC_F: 0000000c | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 10 | FwdB: 00 | PC_E: 00000004 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 65 | PC_F: 00000010 | Instr_D: 00900593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000008 | ALUOut_M: 00000000 | WB_Reg: 10 | WB_Val: 00000000
+# Time: 75 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 0000000c | ALUOut_M: 00000004 | WB_Reg: 12 | WB_Val: 0000000a
+# Time: 85 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 01 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000009 | WB_Reg: 10 | WB_Val: 00000004
+# Time: 95 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000004 | WB_Reg: 11 | WB_Val: 00000009
+# Time: 105 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 0000000c
+# Time: 115 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 125 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 135 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 145 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 155 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000008 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 165 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000008 | WB_Reg: 10 | WB_Val: 00000008
+# Time: 175 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000008 | WB_Reg: 11 | WB_Val: 00000008
+# Time: 185 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000008
+# Time: 195 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 205 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000008 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 215 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 0000002d
+# Time: 225 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 235 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 245 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 255 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 265 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 0000000c | WB_Reg:  0 | WB_Val: 00000000
+# Time: 275 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000007 | WB_Reg: 10 | WB_Val: 0000000c
+# Time: 285 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000007 | WB_Reg: 11 | WB_Val: 00000007
+# Time: 295 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000007
+# Time: 305 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 315 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 0000000c | WB_Reg:  0 | WB_Val: 00000000
+# Time: 325 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 00000038
+# Time: 335 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 345 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 355 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 365 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 375 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000010 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 385 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000006 | WB_Reg: 10 | WB_Val: 00000010
+# Time: 395 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000006 | WB_Reg: 11 | WB_Val: 00000006
+# Time: 405 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000006
+# Time: 415 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 425 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000010 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 435 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 0000004e
+# Time: 445 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 455 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 465 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 475 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 485 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000014 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 495 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000005 | WB_Reg: 10 | WB_Val: 00000014
+# Time: 505 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000005 | WB_Reg: 11 | WB_Val: 00000005
+# Time: 515 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000005
+# Time: 525 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 535 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000014 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 545 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 00000022
+# Time: 555 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 565 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 575 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 585 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 595 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000018 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 605 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000004 | WB_Reg: 10 | WB_Val: 00000018
+# Time: 615 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000004 | WB_Reg: 11 | WB_Val: 00000004
+# Time: 625 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000004
+# Time: 635 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 645 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000018 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 655 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: fffffff6
+# Time: 665 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000001 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 675 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 0000001c | ALUOut_M: 00000001 | WB_Reg: 14 | WB_Val: 00000001
+# Time: 685 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: fffffff6 | WB_Reg:  8 | WB_Val: 00000001
+# Time: 695 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 0000001c | WB_Reg: 12 | WB_Val: fffffff6
+# Time: 705 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000003 | WB_Reg: 10 | WB_Val: 0000001c
+# Time: 715 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000003 | WB_Reg: 11 | WB_Val: 00000003
+# Time: 725 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000003
+# Time: 735 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 745 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 0000001c | WB_Reg:  0 | WB_Val: 00000000
+# Time: 755 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: ffffffdd
+# Time: 765 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000001 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 775 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 0000001c | ALUOut_M: 00000001 | WB_Reg: 14 | WB_Val: 00000001
+# Time: 785 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: ffffffdd | WB_Reg:  8 | WB_Val: 00000001
+# Time: 795 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000020 | WB_Reg: 12 | WB_Val: ffffffdd
+# Time: 805 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000002 | WB_Reg: 10 | WB_Val: 00000020
+# Time: 815 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000002 | WB_Reg: 11 | WB_Val: 00000002
+# Time: 825 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000002
+# Time: 835 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 845 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000020 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 855 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: fffffffa
+# Time: 865 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 875 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 885 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 895 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 905 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000024 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 915 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000001 | WB_Reg: 10 | WB_Val: 00000024
+# Time: 925 | PC_F: 00000010 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000001 | WB_Reg: 11 | WB_Val: 00000001
+# Time: 935 | PC_F: 00000014 | Instr_D: 00052683 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  9 | WB_Val: 00000001
+# Time: 945 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 1 | StallD: 1 | FlushE: 1 | FwdA: 00 | FwdB: 00 | PC_E: 00000010 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 955 | PC_F: 00000018 | Instr_D: 00c6a733 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000024 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 965 | PC_F: 0000001c | Instr_D: 00070463 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 01 | FwdB: 00 | PC_E: 00000014 | ALUOut_M: 00000000 | WB_Reg: 13 | WB_Val: 00000000
+# Time: 975 | PC_F: 00000020 | Instr_D: 00068613 | StallF: 0 | StallD: 0 | FlushE: 1 | FwdA: 10 | FwdB: 00 | PC_E: 00000018 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 985 | PC_F: 00000020 | Instr_D: 00000000 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg: 14 | WB_Val: 00000000
+# Time: 995 | PC_F: 00000024 | Instr_D: 00450513 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000000 | ALUOut_M: 00000000 | WB_Reg:  8 | WB_Val: 00000000
+# Time: 1005 | PC_F: 00000028 | Instr_D: fff58593 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000020 | ALUOut_M: 00000000 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 1015 | PC_F: 0000002c | Instr_D: fe0594e3 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 00000024 | ALUOut_M: 00000028 | WB_Reg:  0 | WB_Val: 00000000
+# Time: 1025 | PC_F: 00000030 | Instr_D: 04c02823 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 10 | FwdB: 00 | PC_E: 00000028 | ALUOut_M: 00000000 | WB_Reg: 10 | WB_Val: 00000028
+# Time: 1035 | PC_F: 00000034 | Instr_D: 00000063 | StallF: 0 | StallD: 0 | FlushE: 0 | FwdA: 00 | FwdB: 00 | PC_E: 0000002c | ALUOut_M: 00000000 | WB_Reg: 11 | WB_Val: 00000000
+# ,----------------------------------------------------------------------------------------------,
+# | [SUCCESS] Correct Minimum Value found and written to address 80:         -35 (Hex: ffffffdd) |
+# '----------------------------------------------------------------------------------------------'
+# 
+# 
+# ** Note: $stop    : C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v(46)
+#    Time: 1040 ns  Iteration: 1  Instance: /tb_riscv
+# Break in Module tb_riscv at C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v line 46

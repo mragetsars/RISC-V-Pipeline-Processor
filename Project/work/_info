@@ -1,0 +1,370 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/mrage/Programs/Codes/Verilog/CA_CA3/Project
+vAdder
+Z0 !s110 1767371227
+!i10b 1
+!s100 [e_mR1XLNfQBnRS0dImW60
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I6HMn3BMhi9NOkhPkD]dhm0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Project
+Z4 w1767367669
+Z5 8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Moduls.v
+Z6 FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Moduls.v
+!i122 65
+L0 57 6
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1767371227.000000
+Z9 !s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Moduls.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Moduls.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@adder
+vALU
+R0
+!i10b 1
+!s100 5J<d<l8:2ZX<KDefG5nXd0
+R1
+IQg=Q]MDki>DT>zF;hfi_z2
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 19 20
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@a@l@u
+vControlUnit
+Z13 !s110 1767371226
+!i10b 1
+!s100 j?lkc<J<l:O[QYRbiJ=H22
+R1
+IoHY`HN@[cVEOm:@nof9b13
+R2
+R3
+w1767367725
+8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/ControlUnit.v
+FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/ControlUnit.v
+!i122 61
+L0 1 69
+R7
+r1
+!s85 0
+31
+Z14 !s108 1767371226.000000
+!s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/ControlUnit.v|
+!i113 1
+R11
+R12
+n@control@unit
+vDataMemory
+R0
+!i10b 1
+!s100 dP;ZM@36zLTd<?@TSl]_o1
+R1
+IBH_7UF98cf_^=WFa?f[nT2
+R2
+R3
+Z15 w1767370497
+Z16 8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Memory.v
+Z17 FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Memory.v
+!i122 64
+L0 8 10
+R7
+r1
+!s85 0
+31
+R8
+Z18 !s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Memory.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Memory.v|
+!i113 1
+R11
+R12
+n@data@memory
+vDatapath
+R13
+!i10b 1
+!s100 GCSBMIbQ3d]:jh^B4FIXa0
+R1
+IEaR[HCF3dUm?FmeB3nDQT1
+R2
+R3
+w1767370403
+8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Datapath.v
+FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Datapath.v
+!i122 62
+L0 1 124
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Datapath.v|
+!i113 1
+R11
+R12
+n@datapath
+vExtend
+R0
+!i10b 1
+!s100 AH0b:3@NUb>==C6fgF9k=1
+R1
+IbKVDKB?NQNQ8^^U2cZT3i0
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 40 16
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@extend
+vFlopC
+R0
+!i10b 1
+!s100 8gJ[h_?@Fo514726=IF=h0
+R1
+IkZEoocOLKB[hj2<lR8:?`0
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 93 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@flop@c
+vFlopRC
+R0
+!i10b 1
+!s100 VMEKAO1@eHa`iZiQmFHK[2
+R1
+IY3W2daOUJjCmjJ?b0dzC93
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 80 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@flop@r@c
+vHazardUnit
+R0
+!i10b 1
+!s100 AKhg<aM:?3VNHPF2dm54A3
+R1
+IZjh8>TaOJA:=[^i1K:maY1
+R2
+R3
+w1767367706
+8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/HazardUnit.v
+FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/HazardUnit.v
+!i122 63
+L0 1 45
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/HazardUnit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/HazardUnit.v|
+!i113 1
+R11
+R12
+n@hazard@unit
+vInstMemory
+R0
+!i10b 1
+!s100 ^XM6@8<ESaHkm1e446Ril3
+R1
+IWl[f81j1C3hzfYijQZZSG1
+R2
+R3
+R15
+R16
+R17
+!i122 64
+L0 1 6
+R7
+r1
+!s85 0
+31
+R8
+R18
+R19
+!i113 1
+R11
+R12
+n@inst@memory
+vMux2
+R0
+!i10b 1
+!s100 PDi=[]XG@WObeOH]Z^H<Z2
+R1
+IcUXH5hZSkoj:LiV2zU]:]1
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 64 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux2
+vMux3
+R0
+!i10b 1
+!s100 Lna^nc8VoS>N>=`P[Qb;11
+R1
+Il;9Db?U2gjBY;jfK5NH8A2
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 72 7
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@mux3
+vRegFile
+R0
+!i10b 1
+!s100 g51KBnM`i4QI:OlWUjAh;2
+R1
+IJzh5Dkk>OH:KYT2_9cQLH2
+R2
+R3
+R4
+R5
+R6
+!i122 65
+L0 1 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@reg@file
+vRISCV_Top
+R0
+!i10b 1
+!s100 ^<]jfOKRZo>2`OZNeOU=`3
+R1
+I4>;`=TO]dVgD_KH;IQ@dH0
+R2
+R3
+w1767370505
+8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/RISCV_Top.v
+FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/RISCV_Top.v
+!i122 66
+L0 1 37
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/RISCV_Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/RISCV_Top.v|
+!i113 1
+R11
+R12
+n@r@i@s@c@v_@top
+vtb_riscv
+R0
+!i10b 1
+!s100 4k2G[Km6WDl16kl4OhbMO1
+R1
+I<f:R4KiUgn8dfhV>fXGkE1
+R2
+R3
+w1767371215
+8C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v
+FC:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v
+!i122 67
+L0 3 68
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/mrage/Programs/Codes/Verilog/CA_CA4/Source/Testbench.v|
+!i113 1
+R11
+R12
